@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Commented out until i18n is solved
+    <string-array name="itemSpinner">
+       <item>Links</item>
+       <item>Linie</item>
+       <item>Rechts</item>
+       <item>Vorwärts</item>
+    </string-array>
+-->
+</resources>

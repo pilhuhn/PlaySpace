@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#0099cc"
+    >
+  <ListView
+    android:id="@id/android:list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="3"    />
+  <LinearLayout android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+        android:layout_weight="1">
+<!--
+    <Button android:id="@+id/left"
+          android:text="@string/left"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+          android:onClick="add"/>
+    <Button android:id="@+id/line"
+          android:text="@string/lineto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="add"/>
+    <Button android:id="@+id/right"
+          android:text="@string/right"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:onClick="add"/>
+-->
+     <Spinner android:id="@+id/spinner"
+
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+
+           />
+     <EditText android:inputType="numberDecimal"
+               android:id="@+id/editText"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:numeric="integer|decimal"
+               android:singleLine="true"
+               android:editable="true"
+               android:enabled="true"
+               android:textAlignment="textEnd"
+               android:maxLength="3"
+               android:text='"90"'
+               android:maxLines="1"
+               android:minEms="3"
+           />
+     <Button android:text="@string/Add"
+             android:id="@+id/add_button"
+             android:onClick="add"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+    <Button android:text="@string/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:layout_gravity="right"
+          android:onClick="clear"/>
+     <Button android:text="@string/done"
+             android:onClick="done"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+           android:layout_gravity="right"/>
+  </LinearLayout>
+
+</LinearLayout>

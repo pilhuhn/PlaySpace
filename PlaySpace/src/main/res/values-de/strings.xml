@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edit_button">Bearbeiten</string>
+    <string name="run_button">Los</string>
+
+  <string name="lineto">Linie</string>
+  <string name="left">Links</string>
+  <string name="right">Rechts</string>
+   <string name="move">Vorwärts</string>
+   <string name="clear">Löschen</string>
+   <string name="done">Fertig</string>
+   <string name="Add">Hinzufügen</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PlaySpace/PlaySpace.iml" filepath="$PROJECT_DIR$/PlaySpace/PlaySpace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PlaySpaceProject.iml" filepath="$PROJECT_DIR$/PlaySpaceProject.iml" />
+    </modules>
+  </component>
+</project>
+
